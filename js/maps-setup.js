@@ -99,17 +99,18 @@ let chinaCityInfo =
          title: "Chang'an",
          description: '<p></p>'
         },
-        {position: [40.3535,93.864028],
-         title: "Yumen Pass",
-         description: '<p></p>'
+        {position: [36.0606,103.8268],
+         title: "Lanzhou",
+         description: `<p></p>`
         },
         {position: [40.1421,94.6619],
          title: "Dunhuang",
          description: `<p></p>`
         },
-        {position: [36.0606,103.8268],
-         title: "Lanzhou",
-         description: `<p></p>`},
+        {position: [40.3535,93.864028],
+         title: "Yumen Pass",
+         description: '<p></p>'
+        }
     ],
     romeCityInfo =
     [
@@ -132,18 +133,18 @@ let chinaCityInfo =
     ],
     otherCityInfo =
     [
-        {position: [24.86650252692691,67.027587890625],
-         title: "Barbarikon",
+        {position: [39.4681,75.9938],
+         title: "Kashgar",
          description: "<p></p>"
         },
         {position: [36.766667,66.9],
          title: "Balkh",
          description: "<p></p>"
         },
-        {position: [39.4681,75.9938],
-         title: "Kashgar",
+        {position: [24.86650252692691,67.027587890625],
+         title: "Barbarikon",
          description: "<p></p>"
-        },
+        }
     ];
 
 
@@ -170,6 +171,15 @@ const asData={
     "type": "FeatureCollection",
     "description": "Approximate Boundaries of Control",
     "features": [
+    {
+        "type": "Feature",
+            "properties": {myColor: xiongCol, title: "Xiongnu Confederation", description: "Prior to the Han-Xiongnu Wars starting in 133 BCE"},
+            "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[122.56347656249999,42.74701217318067],[123.48632812499999,45.02695045318546],[121.81640624999999,48.45835188280866],[112.5,53.014783245859235],[99.49218749999999,55.57834467218206],[76.4208984375,55.57834467218206],[72.6416015625,51.12421275782688],[72.94921875,44.62175409623324],[74.3115234375,44.05601169578525],[75.35522460937499,39.12153746241925],[84.8583984375,39.232253141714885],[90.3076171875,40.68063802521456],[99.722900390625,38.53097889440024],[104.19433593749999,37.47485808497102],[106.5234375,37.92686760148135],[106.5234375,40.81380923056958],[115.00488281250001,40.64730356252251],[122.56347656249999,42.74701217318067]]
+                            ]
+        }  
+    },
     {
       "type": "Feature",
         "properties": {myColor: kuCol, title: "Kushan Empire", description: "In the year 1 CE." },
@@ -205,15 +215,6 @@ const asData={
           "coordinates": [[[32.431640625,30.977609093348686],[32.27783203125,31.615965936476076],[31.13525390625,31.63467554954133],[26.12548828125,31.63467554954133],[23.1591796875,32.713355353177555],[21.4892578125,32.99023555965106],[20.19287109375,32.491230287947594],[19.86328125,31.89621446335144],[20.126953125,31.147006308556566],[19.6435546875,30.50548389892728],[19.92919921875,30.164126343161097],[22.96142578125,30.164126343161097],[23.88427734375,28.671310915880834],[26.455078125,28.5941685062326],[30.30029296875,25.105497373014686],[35.419921875,24.046463999666567],[32.431640625,29.458731185355344],[32.431640625,30.977609093348686]]
                          ]
         }  
-    },
-    {
-        "type": "Feature",
-          "properties": {myColor: xiongCol, title: "Xiongnu Confederation", description: "Prior to the Han-Xiongnu Wars starting in 133 BCE"},
-          "geometry": {
-          "type": "Polygon",
-          "coordinates": [[[122.56347656249999,42.74701217318067],[123.48632812499999,45.02695045318546],[121.81640624999999,48.45835188280866],[112.5,53.014783245859235],[99.49218749999999,55.57834467218206],[76.4208984375,55.57834467218206],[72.6416015625,51.12421275782688],[72.94921875,44.62175409623324],[74.3115234375,44.05601169578525],[75.35522460937499,39.12153746241925],[84.8583984375,39.232253141714885],[90.3076171875,40.68063802521456],[99.722900390625,38.53097889440024],[104.19433593749999,37.47485808497102],[106.5234375,37.92686760148135],[106.5234375,40.81380923056958],[115.00488281250001,40.64730356252251],[122.56347656249999,42.74701217318067]]
-                         ]
-        }  
     }
   ]
 }
@@ -223,20 +224,20 @@ const aoData={
     "description": "Other Geographical Areas of Note",
     "features": [
     {
-      "type": "Feature",
-        "properties": {myColor: desCol, title: "Taklamakan Desert", description: "A part of the Tarim Basin. Oasis settlements in the area supplied trading caravans on the Silk Road." },
-        "geometry": {
-        "type": "Polygon",
-        "coordinates": [[[92.21923828124999,38.976492485539396],[90.85693359375,40.48038142908172],[88.11035156249999,41.29431726315258],[83.21044921875,42.71473218539458],[79.95849609375,41.96765920367816],[73.71826171874999,39.639537564366684],[75.91552734375,36.80928470205937],[80.92529296875,35.71083783530009],[92.21923828124999,38.976492485539396]]
-                       ]
-        }
-    },
-    {
         "type": "Feature",
         "properties": {myColor: hexiCol, title: "Hexi Corridor", description: "A stretch of arable land sandwiched between the Mongolian and Tibetan plateaus. The corridor links Inner China with the Western Regions." },
         "geometry": {
         "type": "LineString",
         "coordinates": [[94.66232299804688,40.13899044275822],[96.9598388671875,40.48455955508278],[98.4979248046875,39.72831341029745],[100.447998046875,38.9380483825641],[102.6397705078125,37.92686760148135],[102.8814697265625,37.59682400108367],[102.8265380859375,37.18657859524883],[103.82080078125,36.05798104702501]
+                        ]
+        }
+    },
+    {
+      "type": "Feature",
+        "properties": {myColor: desCol, title: "Taklamakan Desert", description: "A part of the Tarim Basin. Oasis settlements in the area supplied trading caravans on the Silk Road." },
+        "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[92.21923828124999,38.976492485539396],[90.85693359375,40.48038142908172],[88.11035156249999,41.29431726315258],[83.21044921875,42.71473218539458],[79.95849609375,41.96765920367816],[73.71826171874999,39.639537564366684],[75.91552734375,36.80928470205937],[80.92529296875,35.71083783530009],[92.21923828124999,38.976492485539396]]
                        ]
         }
     }
@@ -343,7 +344,7 @@ function createMap (element) {
     // https://api.mapbox.com/styles/v1/titaniumbones/ckhnvqfda18qu19o2oool6h2c.html?fresh=true&title=copy&access_token=pk.eyJ1IjoidGl0YW5pdW1ib25lcyIsImEiOiJjazF0bTdlNXQwM3gxM2hwbXY0bWtiamM3In0.FFPm7UIuj_b15xnd7wOQig
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-	maxZoom: 8,
+	maxZoom: 12,
         id: 'zhaoyangy/ckhwe8d7v19w019qqyaap3wfn',
         // id: 'titaniumbones/ckhnvk5pl18o71apeq8q1duhc',
         tileSize: 512,
@@ -529,7 +530,7 @@ async function initializeMap() {
  * @param {Object} marker
  */
 function locateMapFeature (marker) {
-    marker.getLatLng ? projectMap.flyTo(marker.getLatLng(), 16, {animate: true, duration: 1.5}) : projectMap.fitBounds(marker.getBounds(), {animate: true, duration: 1.5}); 
+    marker.getLatLng ? projectMap.flyTo(marker.getLatLng(), 10, {animate: true, duration: 3}) : projectMap.fitBounds(marker.getBounds(), {animate: true, duration: 1.5}); 
     marker.openPopup();
 }
 
