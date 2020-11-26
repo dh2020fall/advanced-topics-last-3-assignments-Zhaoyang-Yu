@@ -58,15 +58,15 @@ const chinaIcon = new myIconClass({iconUrl: redURL}),
 
 // storing colors in variables, to make it easier to change all the related features at once
 // you should probably do this too. 
-let kuCol = 'blue',
-    xiongCol = 'yellow',
-    parCol = 'yellow',
+let kuCol = 'salmon',
+    xiongCol = 'cadetblue',
+    parCol = 'green',
     ptoCol = 'blue',
-    seleuCol = 'blue',
-    desCol = 'yellow'
+    seleuCol = 'dimgrey',
+    desCol = 'sienna'
     wallCol = 'black',
-    owallCol = 'black',
-    hexiCol = 'black';
+    owallCol = 'dimgrey',
+    hexiCol = 'sandybrown';
 
 ///////////////////////////////////////////////////////////////////////
 // CHANGE THESE VARIABLE NAMES AND THEIR VALUES TO SUIT YOUR PROJECT //
@@ -97,53 +97,53 @@ let chinaCityInfo =
     [
         {position: [34.266667,108.9],
          title: "Chang'an",
-         description: '<p></p>'
+         description: '<p>The western capital of the Han dynasty. The city marks the eastern end of the Silk Road.</p>'
         },
         {position: [36.0606,103.8268],
          title: "Lanzhou",
-         description: `<p></p>`
+         description: `<p>An important link in the Silk Road, Lanzhou would be the last stop travellers visited before passing through the Hexi Corridor.</p>`
         },
         {position: [40.1421,94.6619],
          title: "Dunhuang",
-         description: `<p></p>`
+         description: `<p>The city was located at the western end of the Hexi Corridor and connects to the northern and southern Silk Roads. Dunhuang was established as a garrison town after a series of Han victories over the Xiongnu in the late second century BCE</p>`
         },
         {position: [40.3535,93.864028],
          title: "Yumen Pass",
-         description: '<p></p>'
+         description: '<p>A pass in the Great Wall, this would be the last stop before travellers exited Inner China.</p>'
         }
     ],
     romeCityInfo =
     [
         {position: [41.883333,12.5],
          title: "Rome",
-         description: "<p></p>"
+         description: "<p>The capital of Rome up until the 3rd century CE. There was a high demand for luxury goods, including silk, from the wealthy patrician class of the city,</p>"
         },
         {position: [34.551389,38.268056],
          title: "Palmyra",
-         description: "<p></p>"
-        },
-        {position: [34.747,40.73],
-         title: "Dura-Europos",
-         description: "<p></p>"
+         description: "<p>One of the western termini of the Silk road, Palmyra was built on an Oasis and the Palmyrans profited off caravanas passing between the Rome and the Parthian Empire. The Palmyrans became a Roman subject in the first century CE.</p>"
         },
         {position: [30.328611,35.441944],
          title: "Petra",
-         description: "<p></p>"
+         description: "<p>Founded by the Nabataeans, Petra is one of the western termini of the Silk Road. It connects to Egypt and Syria to the west and gave the Romans a foothold in the Silk Road after it was conqured at the start of the first century CE.</p>"
         }
     ],
     otherCityInfo =
     [
         {position: [39.4681,75.9938],
          title: "Kashgar",
-         description: "<p></p>"
+         description: "<p>The northern and southern silk roads mirge at Kashgar. It overlooks the mouth of the Torugart Pass which corsses the Tian Shan Range and connectsthe Tarim Basin with lands further west.</p>"
         },
         {position: [36.766667,66.9],
          title: "Balkh",
-         description: "<p></p>"
+         description: "<p>After their defeat by the Xiongnu, the Yuezhi migrated from their pastures in Western Gansu and into hellenized Bactria. By the end of the second century BCE thay had settled around Balkh as the Kushan Empire.</p>"
         },
         {position: [24.86650252692691,67.027587890625],
          title: "Barbarikon",
-         description: "<p></p>"
+         description: "<p>A port city controlled by the Kushans in the first century CE. The port gave western traders coming by sea access to goods from further East and was an important link in the maritime and overland Silk Road.</p>"
+        },
+        {position: [34.747,40.73],
+         title: "Dura-Europos",
+         description: "<p>An imporatant link in the Silk Road between Parthia and further west, Dura-Europoas was independent city up until the end of the second century, after which it fell under Parthian rule. Control over the city switched between Rome and Parthian up until the 3rd century CE, after which it became a Roman colony. </p>"
         }
     ];
 
@@ -173,7 +173,7 @@ const asData={
     "features": [
     {
         "type": "Feature",
-            "properties": {myColor: xiongCol, title: "Xiongnu Confederation", description: "Prior to the Han-Xiongnu Wars starting in 133 BCE"},
+            "properties": {myColor: xiongCol, title: "Xiongnu Confederation", description: "Extent of the Ciongnu confederation prior to the Han-Xiongnu Wars starting in 133 BCE. The Xiongnu were a confederation of nomadic tribes that frequently raided Chinese settlements and controlled access to the West through the Hexi Corridor and Tarim Basin."},
             "geometry": {
             "type": "Polygon",
             "coordinates": [[[122.56347656249999,42.74701217318067],[123.48632812499999,45.02695045318546],[121.81640624999999,48.45835188280866],[112.5,53.014783245859235],[99.49218749999999,55.57834467218206],[76.4208984375,55.57834467218206],[72.6416015625,51.12421275782688],[72.94921875,44.62175409623324],[74.3115234375,44.05601169578525],[75.35522460937499,39.12153746241925],[84.8583984375,39.232253141714885],[90.3076171875,40.68063802521456],[99.722900390625,38.53097889440024],[104.19433593749999,37.47485808497102],[106.5234375,37.92686760148135],[106.5234375,40.81380923056958],[115.00488281250001,40.64730356252251],[122.56347656249999,42.74701217318067]]
@@ -182,7 +182,7 @@ const asData={
     },
     {
       "type": "Feature",
-        "properties": {myColor: kuCol, title: "Kushan Empire", description: "In the year 1 CE." },
+        "properties": {myColor: kuCol, title: "Kushan Empire", description: "Extent of the Kuchan Empire in the first century CE. Known to the Chinese as the nomadic Yuezhi, they migrated west accross the Tian Shan range after a crushing defeat at the hands of hte Xiongnu. They settle in Bactria where they formed the Kushan Empire and became an important link between China ot the east, and Parthia and Rome in the west."},
         "geometry": {
         "type": "Polygon",
         "coordinates": [[[66.357421875,25.60190226111573],[66.8408203125,24.206889622398023],[68.5986328125,23.160563309048314],[70.4443359375,27.410785702577023],[73.0810546875,28.459033019728043],[83.7432861328125,26.098721466341463],[84.04815673828124,27.188685315271673],[77.1240234375,33.358061612778876],[71.8505859375,36.63316209558658],[75.11352539062499,42.39912215986002],[69.90600585937499,41.75492216766298],[66.46728515624999,39.614152077002664],[59.9853515625,39.436192999314095],[61.25976562499999,35.85343961959182],[61.435546875,33.32134852669881],[66.0498046875,31.541089879585808],[66.533203125,28.536274512989916],[66.357421875,25.60190226111573]]
@@ -191,7 +191,7 @@ const asData={
     },
     {
       "type": "Feature",
-        "properties": {myColor: parCol, title: "Parthian Empire", description: "In the First Century CE"},
+        "properties": {myColor: parCol, title: "Parthian Empire", description: "Extent of the Parthian Empire in the first Century CE. The Parthian Empire were frequent military opponents of Rome after they replaced the Seleucid dyansty. The silk roads crossed through the Parthian empire to connect east and west."},
         "geometry": {
         "type": "Polygon",
         "coordinates": [[[61.39160156249999,33.30298618122413],[60.97412109375,36.527294814546245],[56.865234375,38.61687046392973],[53.98681640625,36.98500309285596],[51.92138671874999,36.59788913307022],[50.22949218749999,37.142803443716836],[43.26416015625,35.585851593232356],[40.4901123046875,37.112145754751516],[39.57275390625,35.782170703266075],[41.02294921875,35.191766965947394],[40.60546875,33.87041555094183],[44.27490234375,30.183121842195515],[46.38427734375,29.554345125748267],[46.68914794921875,30.979963897240086],[46.93359375,31.672083485607402],[47.8125,32.08257455954592],[51.26220703125,32.46342595776104],[52.33886718749999,31.653381399664],[53.96484375,31.484893386890164],[57.76611328124999,28.613459424004414],[57.2607421875,25.780107118422244],[61.4794921875,24.926294766395593],[64.16015624999999,25.48295117535531],[59.9853515625,31.70947636001935],[61.39160156249999,33.30298618122413]]
@@ -200,7 +200,7 @@ const asData={
     },
     {
         "type": "Feature",
-          "properties": {myColor: seleuCol, title: "Seleucid Kingdom", description: "In the year 87 BCE"},
+          "properties": {myColor: seleuCol, title: "Seleucid Kingdom", description: "Extend of the Seleucid Kingdom in the year 87 BCE. One of the successor states of the empire of Alexander the Great, the Seleucids had began to wane by this time and their final defeat at the hands of the Romans gave Rome access to ports on the eastern mediterranean and access to the Silk Road through Parthia."},
           "geometry": {
           "type": "Polygon",
           "coordinates": [[[33.662109375,36.24427318493909],[33.8818359375,36.1733569352216],[34.69482421875,36.756490329505176],[35.52978515624999,36.58024660149866],[35.79345703125,36.38591277287651],[35.66162109375,35.7286770448517],[35.6396484375,34.687427949314845],[34.6014404296875,31.75853163393717],[35.52978515624999,32.115148622612445],[35.44189453125,31.156408414557],[38.748779296875,34.4069096565206],[39.75952148437499,35.71083783530009],[39.03442382812499,35.93354064249312],[38.7982177734375,35.93798832265393],[38.7158203125,35.85789180225939],[38.583984375,35.871246850027966],[38.40270996093749,35.82672127366604],[38.2049560546875,35.90684930677121],[38.023681640625,36.15118243124803],[38.1719970703125,36.27085020723902],[38.243408203125,36.474306755095235],[38.18847656249999,36.64638529597495],[38.07861328125,36.659606226479696],[37.957763671875,37.06394430056685],[37.8643798828125,37.05956083025126],[37.8094482421875,37.208456662000195],[37.1282958984375,37.21720611325497],[36.85913085937499,37.53150992479082],[36.5185546875,37.483576550426996],[36.3922119140625,37.74031329210266],[35.39794921875,37.74900069437069],[35.277099609375,37.57070524233116],[34.0740966796875,37.35269280367274],[33.662109375,36.24427318493909]]
@@ -209,7 +209,7 @@ const asData={
     },
     {
         "type": "Feature",
-          "properties": {myColor: ptoCol, title: "Ptolomaic Kingdom", description: "In the Second Century BCE"},
+          "properties": {myColor: ptoCol, title: "Ptolomaic Kingdom", description: "Extent of the Ptolomaic Kingdom in the Second Century BCE. One of the successor states of the empire of Alexander the Great, the Ptolomaic Kingdom became a Roman province after Cleopatra and Antony's defeat at Actium. Control over this province gave Rome access to the Red Sea ad lands further east through the Sinai Peninsula."},
           "geometry": {
           "type": "Polygon",
           "coordinates": [[[32.431640625,30.977609093348686],[32.27783203125,31.615965936476076],[31.13525390625,31.63467554954133],[26.12548828125,31.63467554954133],[23.1591796875,32.713355353177555],[21.4892578125,32.99023555965106],[20.19287109375,32.491230287947594],[19.86328125,31.89621446335144],[20.126953125,31.147006308556566],[19.6435546875,30.50548389892728],[19.92919921875,30.164126343161097],[22.96142578125,30.164126343161097],[23.88427734375,28.671310915880834],[26.455078125,28.5941685062326],[30.30029296875,25.105497373014686],[35.419921875,24.046463999666567],[32.431640625,29.458731185355344],[32.431640625,30.977609093348686]]
@@ -234,7 +234,7 @@ const aoData={
     },
     {
       "type": "Feature",
-        "properties": {myColor: desCol, title: "Taklamakan Desert", description: "A part of the Tarim Basin. Oasis settlements in the area supplied trading caravans on the Silk Road." },
+        "properties": {myColor: desCol, title: "Taklamakan Desert", description: "A part of the Tarim Basin. Oasis settlements in the area supplied trading caravans on the Silk Road. The Silk Road splits into the northern and southern Silk roads here, with the northern path tracing the border of Tian Shan while the southern path traces the border of Kunlun Shan, the two paths meet again at Kashgar." },
         "geometry": {
         "type": "Polygon",
         "coordinates": [[[92.21923828124999,38.976492485539396],[90.85693359375,40.48038142908172],[88.11035156249999,41.29431726315258],[83.21044921875,42.71473218539458],[79.95849609375,41.96765920367816],[73.71826171874999,39.639537564366684],[75.91552734375,36.80928470205937],[80.92529296875,35.71083783530009],[92.21923828124999,38.976492485539396]]
@@ -250,7 +250,7 @@ const wallData={
     "features": [
     {
         "type": "Feature",
-        "properties": {myColor: wallCol, title: "Han Extension", description: "The section of wall constructed during the Han Dynasty to protect the Hexi Corridor." },
+        "properties": {myColor: wallCol, title: "Han Extension", description: "The section of wall constructed during the Han Dynasty to protect the Hexi Corridor from the Xiongnu." },
         "geometry": {
         "type": "LineString",
         "coordinates": [[101.8212890625,42.48830197960227],[99.5361328125,40.01078714046552],[96.767578125,40.68063802521456],[92.900390625,40.613952441166596],[88.11035156249999,42.48830197960227]
