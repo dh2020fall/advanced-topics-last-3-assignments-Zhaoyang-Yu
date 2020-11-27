@@ -131,7 +131,7 @@ let chinaCityInfo =
     [
         {position: [39.4681,75.9938],
          title: "Kashgar",
-         description: "<p>The northern and southern silk roads mirge at Kashgar. It overlooks the mouth of the Torugart Pass which corsses the Tian Shan Range and connectsthe Tarim Basin with lands further west.</p>"
+         description: "<p>The northern and southern silk roads mirge at Kashgar. It overlooks the mouth of the Torugart Pass which croses the Tian Shan Range and connects the Tarim Basin with lands further west.</p>"
         },
         {position: [36.766667,66.9],
          title: "Balkh",
@@ -143,7 +143,7 @@ let chinaCityInfo =
         },
         {position: [34.747,40.73],
          title: "Dura-Europos",
-         description: "<p>An imporatant link in the Silk Road between Parthia and further west, Dura-Europoas was independent city up until the end of the second century, after which it fell under Parthian rule. Control over the city switched between Rome and Parthian up until the 3rd century CE, after which it became a Roman colony. </p>"
+         description: "<p>An imporatant link in the Silk Road between Parthia and further west, Dura-Europoas was an independent city up until the end of the second century, after which it fell under Parthian rule. Control over the city switched between Rome and Parthian up until the 3rd century CE, after which it became a Roman colony. </p>"
         }
     ];
 
@@ -200,7 +200,7 @@ const asData={
     },
     {
         "type": "Feature",
-          "properties": {myColor: seleuCol, title: "Seleucid Kingdom", description: "Extend of the Seleucid Kingdom in the year 87 BCE. One of the successor states of the empire of Alexander the Great, the Seleucids had began to wane by this time and their final defeat at the hands of the Romans gave Rome access to ports on the eastern mediterranean and access to the Silk Road through Parthia."},
+          "properties": {myColor: seleuCol, title: "Seleucid Empire", description: "Extend of the Seleucid Empire in the year 87 BCE. One of the successor states of the empire of Alexander the Great, the Seleucids had began to wane by this time and their final defeat at the hands of the Romans gave Rome access to ports on the eastern mediterranean and access to the Silk Road through Parthia."},
           "geometry": {
           "type": "Polygon",
           "coordinates": [[[33.662109375,36.24427318493909],[33.8818359375,36.1733569352216],[34.69482421875,36.756490329505176],[35.52978515624999,36.58024660149866],[35.79345703125,36.38591277287651],[35.66162109375,35.7286770448517],[35.6396484375,34.687427949314845],[34.6014404296875,31.75853163393717],[35.52978515624999,32.115148622612445],[35.44189453125,31.156408414557],[38.748779296875,34.4069096565206],[39.75952148437499,35.71083783530009],[39.03442382812499,35.93354064249312],[38.7982177734375,35.93798832265393],[38.7158203125,35.85789180225939],[38.583984375,35.871246850027966],[38.40270996093749,35.82672127366604],[38.2049560546875,35.90684930677121],[38.023681640625,36.15118243124803],[38.1719970703125,36.27085020723902],[38.243408203125,36.474306755095235],[38.18847656249999,36.64638529597495],[38.07861328125,36.659606226479696],[37.957763671875,37.06394430056685],[37.8643798828125,37.05956083025126],[37.8094482421875,37.208456662000195],[37.1282958984375,37.21720611325497],[36.85913085937499,37.53150992479082],[36.5185546875,37.483576550426996],[36.3922119140625,37.74031329210266],[35.39794921875,37.74900069437069],[35.277099609375,37.57070524233116],[34.0740966796875,37.35269280367274],[33.662109375,36.24427318493909]]
@@ -209,7 +209,7 @@ const asData={
     },
     {
         "type": "Feature",
-          "properties": {myColor: ptoCol, title: "Ptolomaic Kingdom", description: "Extent of the Ptolomaic Kingdom in the Second Century BCE. One of the successor states of the empire of Alexander the Great, the Ptolomaic Kingdom became a Roman province after Cleopatra and Antony's defeat at Actium. Control over this province gave Rome access to the Red Sea ad lands further east through the Sinai Peninsula."},
+          "properties": {myColor: ptoCol, title: "Ptolomaic Kingdom", description: "Extent of the Ptolomaic Kingdom in the Second Century BCE. One of the successor states of the empire of Alexander the Great, the Ptolomaic Kingdom became a Roman province after Cleopatra and Antony's defeat at Actium. Control over this province gave Rome access to the Red Sea and lands further east through the Sinai Peninsula."},
           "geometry": {
           "type": "Polygon",
           "coordinates": [[[32.431640625,30.977609093348686],[32.27783203125,31.615965936476076],[31.13525390625,31.63467554954133],[26.12548828125,31.63467554954133],[23.1591796875,32.713355353177555],[21.4892578125,32.99023555965106],[20.19287109375,32.491230287947594],[19.86328125,31.89621446335144],[20.126953125,31.147006308556566],[19.6435546875,30.50548389892728],[19.92919921875,30.164126343161097],[22.96142578125,30.164126343161097],[23.88427734375,28.671310915880834],[26.455078125,28.5941685062326],[30.30029296875,25.105497373014686],[35.419921875,24.046463999666567],[32.431640625,29.458731185355344],[32.431640625,30.977609093348686]]
