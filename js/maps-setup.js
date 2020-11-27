@@ -182,7 +182,7 @@ const asData={
     },
     {
       "type": "Feature",
-        "properties": {myColor: kuCol, title: "Kushan Empire", description: "Extent of the Kuchan Empire in the first century CE. Known to the Chinese as the nomadic Yuezhi, they migrated west accross the Tian Shan range after a crushing defeat at the hands of hte Xiongnu. They settle in Bactria where they formed the Kushan Empire and became an important link between China ot the east, and Parthia and Rome in the west."},
+        "properties": {myColor: kuCol, title: "Kushan Empire", description: "Extent of the Kuchan Empire in the first century CE. Known to the Chinese as the nomadic Yuezhi, they migrated west accross the Tian Shan range after a crushing defeat at the hands of the Xiongnu. They settled in Bactria where they formed the Kushan Empire and became an important link between China in the east, and Parthia and Rome in the west."},
         "geometry": {
         "type": "Polygon",
         "coordinates": [[[66.357421875,25.60190226111573],[66.8408203125,24.206889622398023],[68.5986328125,23.160563309048314],[70.4443359375,27.410785702577023],[73.0810546875,28.459033019728043],[83.7432861328125,26.098721466341463],[84.04815673828124,27.188685315271673],[77.1240234375,33.358061612778876],[71.8505859375,36.63316209558658],[75.11352539062499,42.39912215986002],[69.90600585937499,41.75492216766298],[66.46728515624999,39.614152077002664],[59.9853515625,39.436192999314095],[61.25976562499999,35.85343961959182],[61.435546875,33.32134852669881],[66.0498046875,31.541089879585808],[66.533203125,28.536274512989916],[66.357421875,25.60190226111573]]
