@@ -120,11 +120,11 @@ let chinaCityInfo =
         },
         {position: [34.551389,38.268056],
          title: "Palmyra",
-         description: "<p>One of the western termini of the Silk road, Palmyra was built on an Oasis and the Palmyrans profited off caravanas passing between the Rome and the Parthian Empire. The Palmyrans became a Roman subject in the first century CE.</p>"
+         description: "<p>One of the western termini of the Silk road, Palmyra was built on an Oasis and the Palmyrans profited off caravanas passing between the Rome and the Parthian Empire. The Palmyrans became a Roman subject in the late first century BCE.</p>"
         },
         {position: [30.328611,35.441944],
          title: "Petra",
-         description: "<p>Founded by the Nabataeans, Petra is one of the western termini of the Silk Road. It connects to Egypt and Syria to the west and gave the Romans a foothold in the Silk Road after it was conqured at the start of the first century CE.</p>"
+         description: "<p>Founded by the Nabataeans, Petra is one of the western termini of the Silk Road. It lies at an important junction between the Red Sea, the Mediterranean Coast, and the Persian Gulf. The city maintained its indenpendence until the start of the first century CE.</p>"
         }
     ],
     otherCityInfo =
@@ -209,7 +209,7 @@ const asData={
     },
     {
         "type": "Feature",
-          "properties": {myColor: ptoCol, title: "Ptolomaic Kingdom", description: "Extent of the Ptolomaic Kingdom in the Second Century BCE. One of the successor states of the empire of Alexander the Great, the Ptolomaic Kingdom became a Roman province after Cleopatra and Antony's defeat at Actium. Control over this province gave Rome access to the Red Sea and lands further east through the Sinai Peninsula."},
+          "properties": {myColor: ptoCol, title: "Ptolomaic Kingdom", description: "Extent of the Ptolomaic Kingdom in the Second Century BCE. One of the successor states of the empire of Alexander the Great, the Ptolomaic Kingdom became a Roman province after Cleopatra and Antony's defeat at Actium. Control over this province gave Rome access to the Red Sea and a connection with the Nabataeans to the East."},
           "geometry": {
           "type": "Polygon",
           "coordinates": [[[32.431640625,30.977609093348686],[32.27783203125,31.615965936476076],[31.13525390625,31.63467554954133],[26.12548828125,31.63467554954133],[23.1591796875,32.713355353177555],[21.4892578125,32.99023555965106],[20.19287109375,32.491230287947594],[19.86328125,31.89621446335144],[20.126953125,31.147006308556566],[19.6435546875,30.50548389892728],[19.92919921875,30.164126343161097],[22.96142578125,30.164126343161097],[23.88427734375,28.671310915880834],[26.455078125,28.5941685062326],[30.30029296875,25.105497373014686],[35.419921875,24.046463999666567],[32.431640625,29.458731185355344],[32.431640625,30.977609093348686]]
