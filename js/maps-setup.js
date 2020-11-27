@@ -124,7 +124,7 @@ let chinaCityInfo =
         },
         {position: [30.328611,35.441944],
          title: "Petra",
-         description: "<p>Founded by the Nabataeans, Petra is one of the western termini of the Silk Road. It lies at an important junction between the Red Sea, the Mediterranean Coast, and the Persian Gulf. The city maintained its indenpendence until the start of the first century CE.</p>"
+         description: "<p>Founded by the Nabataeans, Petra is one of the western termini of the Silk Road. It lies at an important junction between the Red Sea, the Mediterranean Coast, and the Persian Gulf. The city maintained its indenpendence until the start of the second century CE.</p>"
         }
     ],
     otherCityInfo =
