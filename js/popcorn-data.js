@@ -15,7 +15,7 @@ var loadPopcornSub = function () {
   popSub.footnote({
     start: 0,
     end: 1,
-    text: "<p>Subtitles</p><p>Interviewer Lines in Red</p><p>Interviewee Lines in Black</p><p>Translated by Zhaoyang Yu</p>",
+    text: "<p>Subtitles\nInterviewer Lines in Red\nInterviewee Lines in Black\nTranslated by Zhaoyang Yu</p>",
     target: "subtitle",
   });
   popSub.footnote({

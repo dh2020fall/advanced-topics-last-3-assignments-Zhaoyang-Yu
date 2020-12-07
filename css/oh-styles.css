@@ -15,10 +15,12 @@
 
 section#subtitle {
     grid-area: subtitle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--color-highlight1);
     border: 1px solid var(--color-custom-borders);
-    text-align: center;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 /* popcorn event container: 
