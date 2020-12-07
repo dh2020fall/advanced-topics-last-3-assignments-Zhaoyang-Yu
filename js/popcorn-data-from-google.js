@@ -39,7 +39,7 @@ var loadPopcorn = function(){
 
     // if you're having problems with this, you can uncomment the next line and 
     // look in the browser's console to see if the data looks like it's supposed to.
-    console.log(mytables.data);
+    //console.log(mytables.data);
 
     // play the video right away
     // pop.play();
