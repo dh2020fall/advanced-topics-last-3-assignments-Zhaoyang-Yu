@@ -17,6 +17,8 @@ section#subtitle {
     grid-area: subtitle;
     background-color: var(--color-highlight1);
     border: 1px solid var(--color-custom-borders);
+    text-align: center;
+    font-size: 36px;
 }
 
 /* popcorn event container: 
