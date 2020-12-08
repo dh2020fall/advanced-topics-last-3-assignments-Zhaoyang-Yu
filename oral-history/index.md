@@ -1,34 +1,25 @@
-# Your Title should go in the appropriate place in `index.html`, not here! Title is itself set only in the `<head>` element
+# Housing and History from a Shanghai Resident
 
-## Use headings only if you want to have subsections in your essay
+The audio clip attached to this page is a section of an on the spot interview conducted by “近观上海” of a Shanghai resident, and a piece of oral history. Born in 1954 this Shanghai resident would have had firsthand experience of a time of great change in recent Chinese history. The country’s GDP ballooned more than ten times over this period and a series of economic reforms in 1978 decollectivized agricultural land, opened up the country to foreign investment, and privatized a large share of industry. On the political end, this resident of Shanghai grew up during the period of the Cultural Revolution from 1966 to 1976, when communist ideology in the country was at its most radical.
 
+These important events in recent Chinese history are never directly discussed in this section of the interview, and are only tangentially mentioned in later sections when the interviewee recounts the experience of one of his neighbors during his youth. However, where an oral history such as this one might lack an in-depth look at key historical events, it makes up for in providing a recount of an individual’s narrow experience living during the time those events occurred. In this regard an oral history is less about what happened in the past and more about what those happenings meant for different people.
 
+Another interesting aspect of an oral history, such as the one provided above, is that unlike a journal, letter, or other primary source, an oral history consciously discusses the past from the perspective of the present. This is an important distinction because how we see past experiences is inextricably tied to who we are now. Take for example the well documented phenomenon of confirmation bias, which suggests that individuals are more likely to recall information in a way that confirms their present beliefs. Oral history is thus not just a window to an individual’s past experience, but also to how people construct an image of the past based on the present. As we look at the events discussed in the interview we will pay especial attention to how the past is interpreted in relation to modern social and economic phenomenon.
 
-Add your content here, including _markup_ of **various kinds**. Now you can just write! But you should be aware of a couple of advanced features of markdown:
-- you can embed HTML directly n a markdown file. This is great if you want to add complex attributes like **classes**, e.g. to your `img` tags so that they display properly (though you can also use the `{.css-selector}` method ddescribed in the main readme.
-  - a particular use of embedded HTML is for funky javascript function links. I've written a simple function that will seek to a particular time code in seconds.  You can call it like this: `<a href="javascript:seek(75)">seek to 1:15</a>`, but `[seek to 1:15](javascript:seek(75))` won't render properly, so you have to type the whole link in, as seen here: <a href="javascript:seek(75)"> seek to 1:15</a>.
-  - also, markdown-it supports pandoc-style footnotes, which can be helpful sometimes. Here are some examples of footnotes at work:
+The first interesting section of the interview <a href="javascript:seek(43)">occurs</a> when the interviewee begins to discuss his parents. He characterizes them as frugal and traditional, they patch up worn out clothing, expect their son to dress in a Zongshan suit for his marriage, and refuse to spend on anything but the necessities. These are not traits particular to the interviewee’s parents, but rather as the <a href="javascript:seek(97)">interviewer suggests</a> shared amongst many of that generation due to several social and political events at the time. Key amongst these are the Great Leap Forward, and the Cultural Revolution. The Great Leap Forward was a movement initiated by the CCP in 1958 to increase farm yield, industrialize production, and enact social change by collectivizing farmland into communes and enacting a number of other large scale projects [^Watson34]. These measures, many of which were poorly conceived, led to a series of crop failures which resulted in famine and an estimated number of at least 30 million deaths [^Watson41].
 
-    Footnote 1 link[^first].
+The Cultural Revolution, beginning in 1966 was an attempt to shift to a more radical communist ideology based off Maoist thought. The movement included political purges and the mass relocation of urban youth to the countryside as per Mao’s focus on agrarian socialism. Studies conducted on the effect of societal events on Chinese generational cohorts have shown that these two events have had a statistically significant effect on the spending practices and attitudes of the generation which grew up during this period [^Hung844]. While the interviewee’s parents did not grow up during this period, their experiences in the <a href="javascript:seek(20)">civil war</a> in their youth, their status as <a href="javascript:seek(25)">party cadre</a>, and these two events in succession would no doubt have had a profound effect on their thinking. On the other hand, while the interviewee grew up during this period of societal strife, his parents <a href="javascript:seek(65)">frugality, status, and adherence to the party line</a> may have mitigated the effects of the Great Leap Forward and the Cultural Revolution, and thus resulted in spending habits more in line with following generations that grew up after the Economic Reforms. Through oral history we see personal experiences that differ from what we might expect just looking at qualitative data.
 
-    Footnote 2 link[^second].
+In the second half of the <a href="javascript:seek(123)">audio clip</a> the interviewee discusses his community’s school, where he was educated. During the interviewee’s childhood housing in China was distributed based on one’s work unit (danwei). The work unit was a unit of both social and economic organization, besides housing, other form of social welfare such as <a href="javascript:seek(150)">schooling</a> would also be distributed based on the work unit [^Chen654]. Prior to the 1978 economic reforms work unit housing was public and no housing market existed. That the interviewee can shift so naturally from discussing work unit public housing to housing as <a href="javascript:seek(172)">a market good and housing renovation</a>, showcases how oral history is told by contemporary individuals reflecting upon past events with a modern perspective. 
 
-    Inline footnote^[Text of inline footnote] definition.
+The interviewer’s <a href="javascript:seek(172)">surprise</a> regarding the price the house was sold for in 2016 (2 million yuan) further puts this interview into the perspective of modern China and its booming housing market, especially in large cities like Shanghai where rising prices has led to rising concerns regarding the affordability of housing for the younger generation [^Chen656]. In a calculated twist this returns us back to the start of the video, contextualizing the interviewer and interviewee’s discussion over his recently purchased <a href="javascript:seek(2)">six point eight million Yuan townhouse</a>.
 
-    Duplicated footnote reference[^second].
+[^Watson34]: [James L. Watson, 34](https://www.routledge.com/Governance-of-Life-in-Chinese-Moral-Experience-The-Quest-for-an-Adequate/Zhang-Kleinman-Tu/p/book/9780415597197)
 
+[^Watson41]: [James L. Watson, 41](https://www.routledge.com/Governance-of-Life-in-Chinese-Moral-Experience-The-Quest-for-an-Adequate/Zhang-Kleinman-Tu/p/book/9780415597197)
 
-[^first]: Footnote **can have markup**
+[^Hung844]: [Kineta H. Hung et al., 844](https://www.researchgate.net/publication/5223292_A_Social_Institutional_Approach_to_Identifying_Generation_Cohorts_in_China_with_a_Comparison_with_American_Consumers)
 
-    and multiple paragraphs.
+[^Chen654]: [Jie Chen & Xuehui Han, 654](https://onlinelibrary.wiley.com/doi/abs/10.1111/joes.12076)
 
-[^second]: Footnote text.
-
-and remember tables, if you want them: 
-
-| heading | Heading |
-| ------| ----- |
-| content | content |
-| content | content |
-| content | content |
-{.striped}
+[^Chen656]: [Jie Chen & Xuehui Han, 656](https://onlinelibrary.wiley.com/doi/abs/10.1111/joes.12076)

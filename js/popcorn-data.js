@@ -38,7 +38,7 @@ var loadPopcornSub = function () {
   });
   popSub.footnote({
     start: 10,
-    end: 12,
+    end: 15,
     text: "This house, it keeps cool when it’s really hot outside, don’t even need to open the air conditioning.",
     target: "subtitle",
   });
@@ -55,8 +55,8 @@ var loadPopcornSub = function () {
     target: "subtitle",
   });
   popSub.footnote({
-    start: 20,
-    end: 23,
+    start: 19,
+    end: 24,
     text: "I was born here in ’54. By parents were from the north. They fought all the way to Shanghai.",
     target: "subtitle",
   });
@@ -68,18 +68,18 @@ var loadPopcornSub = function () {
   });
   popSub.footnote({
     start: 27,
-    end: 28,
+    end: 29,
     text: "<p style=\"color:red\">Participated in the revolution right?</p>",
     target: "subtitle",
   });
   popSub.footnote({
     start: 29,
-    end: 33,
+    end: 35,
     text: "They fought all the way to Shanghai. At the time they were a part of the Third Field Army.",
     target: "subtitle",
   });
   popSub.footnote({
-    start: 38,
+    start: 37,
     end: 41,
     text: "They fought here from the north, they fought here from Hebei province.",
     target: "subtitle",
@@ -91,7 +91,7 @@ var loadPopcornSub = function () {
     target: "subtitle",
   });
   popSub.footnote({
-    start: 47,
+    start: 46,
     end: 49,
     text: "All the way up until the time of their death, they were very, very provincial.",
     target: "subtitle",
@@ -104,7 +104,7 @@ var loadPopcornSub = function () {
   });
   popSub.footnote({
     start: 51,
-    end: 55,
+    end: 56,
     text: "Both my parents were very provincial. For example, when I got married I had this suit made.",
     target: "subtitle",
   });
@@ -128,7 +128,7 @@ var loadPopcornSub = function () {
   });
   popSub.footnote({
     start: 64,
-    end: 69,
+    end: 70,
     text: "<p style=\"color:red\">He still had traditional… He was The type that upheld traditional culture right?</p>",
     target: "subtitle",
   });
@@ -151,7 +151,7 @@ var loadPopcornSub = function () {
     target: "subtitle",
   });
   popSub.footnote({
-    start: 80,
+    start: 79,
     end: 83,
     text: "<p style=\"color:red\">Logically speaking, with such a high rank, they should have been quite wealthy right?</p>",
     target: "subtitle",
@@ -169,7 +169,7 @@ var loadPopcornSub = function () {
     target: "subtitle",
   });
   popSub.footnote({
-    start: 90,
+    start: 89,
     end: 94,
     text: "The cotton sweater we were talking about, when it broke and I bought him two more sets, we got into an argument over it.",
     target: "subtitle",
