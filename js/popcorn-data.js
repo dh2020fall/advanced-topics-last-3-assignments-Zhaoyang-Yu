@@ -15,7 +15,7 @@ var loadPopcornSub = function () {
   popSub.footnote({
     start: 0,
     end: 1,
-    text: "<p>Subtitles\nInterviewer Lines in Red\nInterviewee Lines in Black\nTranslated by Zhaoyang Yu</p>",
+    text: "<p>Subtitles</br>Interviewer Lines in Red</br>Interviewee Lines in Black</br>Translated by Zhaoyang Yu</p>",
     target: "subtitle",
   });
   popSub.footnote({
@@ -61,8 +61,8 @@ var loadPopcornSub = function () {
     target: "subtitle",
   });
   popSub.footnote({
-    start: 25,
-    end: 26,
+    start: 24,
+    end: 27,
     text: "Both my parents were retired party cadre.",
     target: "subtitle",
   });
@@ -74,25 +74,25 @@ var loadPopcornSub = function () {
   });
   popSub.footnote({
     start: 29,
-    end: 35,
+    end: 37,
     text: "They fought all the way to Shanghai. At the time they were a part of the Third Field Army.",
     target: "subtitle",
   });
   popSub.footnote({
     start: 37,
-    end: 41,
+    end: 42,
     text: "They fought here from the north, they fought here from Hebei province.",
     target: "subtitle",
   });
   popSub.footnote({
-    start: 43,
-    end: 46,
+    start: 42,
+    end: 45,
     text: "These people, let me tell you about people like my parents. Very, very provincial.",
     target: "subtitle",
   });
   popSub.footnote({
-    start: 46,
-    end: 49,
+    start: 45,
+    end: 50,
     text: "All the way up until the time of their death, they were very, very provincial.",
     target: "subtitle",
   });
@@ -110,12 +110,12 @@ var loadPopcornSub = function () {
   });
   popSub.footnote({
     start: 56,
-    end: 60,
+    end: 61,
     text: "My father told me: If you wear this garment for your marriage, I’m not coming.",
     target: "subtitle",
   });
   popSub.footnote({
-    start: 60,
+    start: 61,
     end: 62,
     text: "<p style=\"color:red\">He wanted you in Chinese style dress.</p>",
     target: "subtitle",
@@ -128,25 +128,25 @@ var loadPopcornSub = function () {
   });
   popSub.footnote({
     start: 64,
-    end: 70,
+    end: 71,
     text: "<p style=\"color:red\">He still had traditional… He was The type that upheld traditional culture right?</p>",
     target: "subtitle",
   });
   popSub.footnote({
     start: 71,
-    end: 75,
+    end: 74,
     text: "If one of their garments was torn, they’d put a patch on the tear.",
     target: "subtitle",
   });
   popSub.footnote({
-    start: 75,
+    start: 74,
     end: 76,
     text: "<p style=\"color:red\">They would patch it?</p>",
     target: "subtitle",
   });
   popSub.footnote({
     start: 76,
-    end: 78,
+    end: 79,
     text: "They’d patch it all themselves.",
     target: "subtitle",
   });
@@ -164,7 +164,7 @@ var loadPopcornSub = function () {
   });
   popSub.footnote({
     start: 87,
-    end: 88,
+    end: 89,
     text: "Save money, I would say, what are you saving for?",
     target: "subtitle",
   });
@@ -176,31 +176,31 @@ var loadPopcornSub = function () {
   });
   popSub.footnote({
     start: 94,
-    end: 96,
+    end: 97,
     text: "He said, my broken clothing, I just need to fix it up a bit, do a bit of patching.",
     target: "subtitle",
   });
   popSub.footnote({
-    start: 96,
-    end: 99,
+    start: 97,
+    end: 100,
     text: "<p style=\"color:red\">That generation was really frugal.</p>",
     target: "subtitle",
   });
   popSub.footnote({
-    start: 101,
+    start: 100,
     end: 102,
     text: "<p style=\"color:red\">It really wasn’t easy.</p>",
     target: "subtitle",
   });
   popSub.footnote({
     start: 102,
-    end: 104,
+    end: 105,
     text: "If my parents were still alive, they’d be in their nineties by now.",
     target: "subtitle",
   });
   popSub.footnote({
-    start: 104,
-    end: 106,
+    start: 106,
+    end: 107,
     text: "<p style=\"color:red\">They’ve left.</p>",
     target: "subtitle",
   });
@@ -218,18 +218,18 @@ var loadPopcornSub = function () {
   });
   popSub.footnote({
     start: 112,
-    end: 116,
+    end: 117,
     text: "My mother left early, lung cancer in her forties.",
     target: "subtitle",
   });
   popSub.footnote({
-    start: 116,
-    end: 119,
+    start: 117,
+    end: 120,
     text: "<p style=\"color:red\">Left early, didn’t have a chance to enjoy her fortunes.</p>",
     target: "subtitle",
   });
   popSub.footnote({
-    start: 121,
+    start: 120,
     end: 122,
     text: "<p style=\"color:red\">The historical situation here, you’re well acquainted with it.</p>",
     target: "subtitle"
@@ -242,18 +242,18 @@ var loadPopcornSub = function () {
   });
   popSub.footnote({
     start: 126,
-    end: 128,
+    end: 129,
     text: "Up front there’s another kindergarten, and an elementary school.",
     target: "subtitle"
   });
   popSub.footnote({
-    start: 128,
-    end: 129,
+    start: 129,
+    end: 130,
     text: "<p style=\"color:red\">Ah, there’s an elementary school in here too. (Former work unit residential area)</p>",
     target: "subtitle"
   });
   popSub.footnote({
-    start: 129,
+    start: 130,
     end: 131,
     text: "When you came in just now, you didn’t see it?",
     target: "subtitle"
@@ -265,7 +265,7 @@ var loadPopcornSub = function () {
     target: "subtitle"
   });
   popSub.footnote({
-    start: 134,
+    start: 133,
     end: 137,
     text: "Right, this elementary school used to be for this place, it use to provide for this place.",
     target: "subtitle"
@@ -278,7 +278,7 @@ var loadPopcornSub = function () {
   });
   popSub.footnote({
     start: 138,
-    end: 139,
+    end: 140,
     text: "Open to the outside.",
     target: "subtitle"
   });
@@ -303,7 +303,7 @@ var loadPopcornSub = function () {
   popSub.footnote({
     start: 150,
     end: 157,
-    text: "Do you know what this is? The Shanghai Textile Bureau, ah, it’s the cotton textile factory. TThis is the Textile Bureau’s 15th cotton textile factory’s kindergarten.",
+    text: "Do you know what this is? The Shanghai Textile Bureau, ah, it’s the cotton textile factory. This is the Textile Bureau’s 15th cotton textile factory’s kindergarten.",
     target: "subtitle"
   });
   popSub.footnote({
@@ -315,7 +315,7 @@ var loadPopcornSub = function () {
   popSub.footnote({
     start: 162,
     end: 167,
-    text: "After being discharged, after fighting in the war, a lot of them went to the Textile Bureau. (Vietnam War, Korean War, etc.",
+    text: "After being discharged, after fighting in the war, a lot of them went to the Textile Bureau. (Vietnam War, Korean War, etc.)",
     target: "subtitle"
   });
   popSub.footnote({
@@ -326,12 +326,12 @@ var loadPopcornSub = function () {
   });
   popSub.footnote({
     start: 169,
-    end: 171,
+    end: 170,
     text: "<p style=\"color:red\">This one?</p>",
     target: "subtitle"
   });
   popSub.footnote({
-    start: 171,
+    start: 170,
     end: 172,
     text: "Later on they sold it.",
     target: "subtitle"
