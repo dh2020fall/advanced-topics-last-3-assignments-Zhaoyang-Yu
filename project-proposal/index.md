@@ -7,7 +7,8 @@
 2. [Methods](#methods)
 3. [Timeline](#timeline)
 4. [Importance](#importance)
-5. [Budget](#budget)
+5. [Mockup](#mockup)
+6. [Budget](#budget)
 
 ### Intro <a name="intro"></a>
 
@@ -52,16 +53,37 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;In summation we are attempting to examine political discourse as a continuum, where every discussion is placed within the historical context of the events occurring at the time and of events which occurred before. This is salient not just because it gives us a more complete picture of how segments of the population interpret events occurring in their time, but also because it gives us insight on issues surrounding public perception of current emergencies such as the COVID-19 epidemic. An issue which has been hotly contested by various segments of the public, whose opinion of the issue is likely as much influenced by the issue itself, as it is by other events in our day or the events of the past few years [^Garrett], such as the US-China Trade War and relations between the two states. Thus this study of public discourse on YouTube in recent history is important to both our understanding of history and public discourse, and to the practical events of our day.
 
+### Mockup <a name="mockup"></a>
+
+A mockup of the network visualization constructed using a fictional dataset with uncategorized tags. The tags were tallied by hand in this case and so the number of tags was limited by concerns of feasibility.
+
+|Video|Tags|
+|-----|----|
+|video1|win election, election, 2020, president, republican|
+|video2|biden, win election, election, 2020, democrat, candidate|
+|video3|biden, win election, 2020, president, candidate, election|
+|video4|election fraud, election, 2020, mail in ballots, tampering, democrats|
+|video5|election, 2020, lose election, polls|
+|video6|biden, election, 2020, lose election, polls|
+|video7|election, election fraud, disinformation, mail in ballot, secure, 2020|
+|video8|election, election fraud, not secure, fake news, mail in ballot, democrats, 2020|
+
+<a href="tallyNode.txt">Tallied Data (Nodes)</a>
+
+<a href="tallyEdge.txt">Tallied Data (Edges)</a>
+
+<img src="mockup.svg">
+
 ### Budget <a name="budget"></a>
 
 |Date|Description|Note|Subtotal|
 |----|-----------|----|--------|
-|1 Feb 2021|Wages for Research Assistants|A few hours in Februrary and a considerable number of hours from later March to the end of July. Assuming part of the wages is subsidized by the government. Approx. 700-800 hours.|$7000-8000|
+|1 Feb 2021|Wages for Research Assistants|A few hours in Februrary and a considerable number of hours from later March to the end of July. Assuming part of the wages is subsidized by the government. Approx. 500-600 hours.|$5000-6000|
 |6 Mar 2021|Translator Fees|Translating non-English tags into English. Calculated at 10 cents per word with additional word count due to the need for context after translation. Approx 10000+ words.|$1000-2000|
 |12 Aug 2021|Web Hosting|Due to the low amount of expected traffic we can use shared hosting to reduce costs. Calculated at $10 a month with the expectation of keeping the site hosted for at least the next century.|$1200|
 ||Software Licensing|TubeKit is licensed under CC BY-NC-SA 3.0 US and Gephi under CDDL-1.0. Both licenses permit the use of the material for scholarly puposes.|$0|
 ||Meeting Space|With a small team of 3 or 4 members we can arrange periodic meeting either online via Zoom, or arrange in person meeting in public spaces such as the Public Library.|$0|
-|    |Expenses Total|    |$9200-11200        |
+|    |Expenses Total|    |$7200-9200        |
 
 
 [^Pew]: [Pew Research Center](https://www.pewresearch.org/internet/fact-sheet/social-media/#who-uses-social-media)

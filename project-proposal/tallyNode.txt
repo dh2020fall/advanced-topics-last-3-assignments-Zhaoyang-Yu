@@ -1,0 +1,19 @@
+Id	        Weight
+win election	3
+election	6
+2020		8
+president	2
+republican	1
+biden		3
+democrat	1
+candidate	2
+election fraud	3
+mail in ballots	3
+tampering	1
+democrats	2
+lose election	2
+polls		2
+disinformation	1
+secure		1
+not secure	1
+fake news	1
