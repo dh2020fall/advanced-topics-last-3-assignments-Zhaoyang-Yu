@@ -8,15 +8,19 @@
 }
 
 .main-container {
-    grid-template-areas: "intro popcorn" "main main";
+    grid-template-areas: "subtitle popcorn" "main main";
     grid-auto-columns: 1fr;
     grid-template-rows: 50vh 1fr;
 }
 
-section#intro {
-    grid-area: intro;
+section#subtitle {
+    grid-area: subtitle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--color-highlight1);
     border: 1px solid var(--color-custom-borders);
+    font-size: 30px;
 }
 
 /* popcorn event container: 
@@ -71,7 +75,7 @@ section#maintext {
 
 @media only screen and (max-width:1199px) {
     .main-container {
-        grid-template-areas: "popcorn" "intro" "main";
+        grid-template-areas: "popcorn" "subtitle" "main";
         --default-width: 100%;
         grid-template-rows: minmax(200px,auto);
     }

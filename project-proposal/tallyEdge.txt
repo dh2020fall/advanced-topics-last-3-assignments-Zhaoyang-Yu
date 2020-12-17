@@ -1,0 +1,65 @@
+Source		Target		Weight
+win election	election	3
+win election	2020		3
+win election	president	2
+win election	republican	1
+win election	biden		2
+win election	democrat	1
+win election	candidate	2
+election	2020		8
+election	president	2
+election	republican	1
+election	biden		3
+election	democrat	1
+election	candidate	2
+election	election fraud	3
+election	mail in ballots	3
+election	tampering	1
+election	democrats	2
+election	lose election	2
+election	polls		2
+election	disinformation	1
+election	secure		1
+election	not secure	1
+election	fake news	1
+2020		president	2
+2020		republican	1
+2020		biden		3
+2020		democrat	1
+2020		candidate	2
+2020		election fraud	3
+2020		mail in ballots	3
+2020		tampering	1
+2020		democrats	2
+2020		lose election	2
+2020		polls		2
+2020		disinformation	1
+2020		secure		1
+2020		not secure	1
+2020		fake news	1
+president	candidate	1
+president	biden		1
+biden		democrat	1
+biden		candidate	2
+biden		lose election	1
+biden		polls		1
+democrat	candidate	1
+election fraud	mail in ballots	3
+election fraud	tampering	1
+election fraud	democrats	2
+election fraud	disinformation	1
+election fraud	secure		1
+election fraud	not secure	1
+election fraud	fake news	1
+mail in ballot 	tampering	1
+mail in ballot 	democrats	2
+mail in ballot 	disinformation	1
+mail in ballot 	secure		1
+mail in ballot 	not secure	1
+mail in ballot 	fake news	1
+tampering	democrats	1
+democrats	fake news	1
+democrats	not secure	1
+lose elections	polls		2
+disinformation	secure		1
+not secure	fake news	1

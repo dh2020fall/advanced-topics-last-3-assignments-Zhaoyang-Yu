@@ -7,7 +7,7 @@
     <!-- none of this displays directly in the web page.  -->
     <head>
         <meta charset="UTF-8" />
-        <title>Title Goes Here | by Your Name</title>
+        <title>Housing and History from a Shanghai Resident | by Zhaoyang Yu</title>
         <!-- load some big magic scripts  -->
         <!-- jQuery is an important framework used by many web projects  -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -36,11 +36,11 @@
              you would like to use.
              
              If you want to make your events by hand, as we did in class, use this script: -->
-        <!-- <script src="popcorn-data.js" language="javascript"></script> -->
+        <script src="../js/popcorn-data.js" language="javascript"></script>
 
         <!-- If you would prefer to create your events in a Google Spreadsheet, use this script 
              as a base instead.  This is the recommended method! -->
-        <script src="../js/popcorn-data-from-google.js"></script>
+        <script src="../js/popcorn-data-from-google.js" language="javascript"></script>
 
 
         <!-- call all our CSS files: chota, site-wide mods, and page-specific mods -->
@@ -72,13 +72,13 @@
                  https://storycorpsorg-staging.s3.amazonaws.com/uploads/walsh2-1.mp3
                  https://archive.storycorps.org/interviews/madeline-manning-mims-and-charles-moore/audio/
             -->
-            <source src="https://storycorpsorg-staging.s3.amazonaws.com/uploads/walsh2-1.mp3"
+            <source src="audio.mp3"
                     type="audio/mp3" />
         </audio>
 
         <!-- these next 2 divs place the main content inside a box with margins from the screen edge -->
         <main class="main-container">
-            <section id="intro"></section>
+            <section id="subtitle"></section>
             <!-- This is the div where all the popcorn action will hapen -->
             <aside id="popcorn-container"></aside>
             <section id="maintext"></section>
@@ -101,7 +101,7 @@
                  html: true,
                  linkify: true}),
                  renderedcontent = "",
-                 introContent = $("#intro").html(),
+                 subtitleContent = $("#subtitle").html(),
                  mainContent = $("#maintext").html();
 
              /* use footnote, attribute and emoji plugins */
@@ -114,17 +114,13 @@
              //retrieve the markdown files, parse them,
              // and use it to replace the contents of #intro and #maintext
              // also load Popcorn
-             $.get("./intro.md", function (response) {
+             $.get("./index.md", function (response) {
                  let content = response,
                      renderedcontent = md.render(content);
                  console.log(typeof(response));
-                 $("#intro").html(introContent + renderedcontent);
-                 $.get("./index.md", function (response2) {
-                     let content = response2,
-                         renderedcontent2 = md.render(content);
-                     $("#maintext").html(mainContent + renderedcontent2);
-                 }, 'text')
+                 $("#maintext").html(mainContent + renderedcontent);
                  // also load popcorn!!
+                 loadPopcornSub();
                  loadPopcorn();
              }, 'text');
 

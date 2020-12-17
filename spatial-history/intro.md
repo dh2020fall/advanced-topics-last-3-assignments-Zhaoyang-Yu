@@ -1,12 +1,11 @@
 <section id="test">
 
-# This Map Should Deal with a Historical Topic You Care About 
+Welcome!
 
-Your first task will be to locate some real places.  You can get the precise locations at various services, e.g [latlong.net](http://www.latlong.net/).
+This is an interactive map that highlights states and cities integral to the formation of the first and second century CE Silk Road that stretched from Rome in the west to Han China in the east. As you may have noticed, unlike many other maps of the Silk Road, this one has a distinct lack of trade routes and cities. This is because this map focuses on the role of geopolitics and connected spaces in the exchange of goods and ideas. If you want a more in depth exploration of this idea consult my short essay below!
 
-Then add those places to the marker array in [../js/maps-setup.js](../js/maps-setup.js) (see instructions there).
+Otherwise, you can scroll around on the map to the left to look at the various locations I've highlighted, or consult the legend on the far left to zoom to each location. Each location has a short description that provides more information on why that location was important in the formation of the Silk Road.
 
-It makes sense to put an introductory paragraph here, before the map and buttons. To change the colors, modify the defaults in [style.css](../css/map-styles.css).
-
+Enjoy!
 
 </section>
